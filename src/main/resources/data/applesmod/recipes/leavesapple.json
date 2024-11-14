@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "#A#",
+    "###"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:apple"
+    },
+    "#": {
+      "tag": "minecraft:leaves"
+    }
+  },
+  "result": {
+    "id": "applesmod:leavesapple",
+    "count": 1
+  }
+}

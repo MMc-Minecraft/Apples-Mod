@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "#A#",
+    "###"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:apple"
+    },
+    "#": {
+      "item": "minecraft:milk_bucket"
+    }
+  },
+  "result": {
+    "id": "applesmod:milkapple",
+    "count": 3
+  }
+}

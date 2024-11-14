@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "###",
+    "#A#",
+    "###"
+  ],
+  "key": {
+    "A": {
+      "item": "minecraft:golden_apple"
+    },
+    "#": {
+      "tag": "minecraft:ender_pearl"
+    }
+  },
+  "result": {
+    "id": "applesmod:enderapple",
+    "count": 1
+  }
+}
