@@ -76,7 +76,7 @@ public class ModFoods {
     public static final ConsumableComponent DIAMOND_APPLE_EFFECT = createConsumableEffect(
             new EffectData(StatusEffects.SPEED, 20 * 60, 1, 0.8F),
             new EffectData(StatusEffects.HEALTH_BOOST, 20 * 60, 2, 0.8F),
-            new EffectData(StatusEffects.REGENERATION, 20 * 30, 1, 0.8F),
+            new EffectData(StatusEffects.REGENERATION, 20 * 8, 1, 0.8F),
             new EffectData(StatusEffects.ABSORPTION, 20 * 60, 1, 0.8F)
     );
     public static final ConsumableComponent IRON_APPLE_EFFECT = createConsumableEffect(
@@ -87,7 +87,7 @@ public class ModFoods {
             new EffectData(StatusEffects.ABSORPTION, 20 * 60, 2, 1F),
             new EffectData(StatusEffects.HEALTH_BOOST, 20 * 60, 2, 1F),
             new EffectData(StatusEffects.LUCK, 20 * 20, 0, 0.1F),
-            new EffectData(StatusEffects.REGENERATION, 20 * 15, 2, 1F)
+            new EffectData(StatusEffects.REGENERATION, 20 * 10, 2, 1F)
     );
     public static final ConsumableComponent LAPIS_APPLE_EFFECT = createConsumableEffect(
             new EffectData(StatusEffects.ABSORPTION, 20 * 60, 1, 1F),
@@ -102,14 +102,14 @@ public class ModFoods {
             new EffectData(StatusEffects.HASTE, 20 * 60, 1, 1F),
             new EffectData(StatusEffects.STRENGTH, 20 * 30, 1, 1F),
             new EffectData(StatusEffects.FIRE_RESISTANCE, 20 * 30, 1, 1F),
-            new EffectData(StatusEffects.REGENERATION, 20 * 60, 2, 1F)
+            new EffectData(StatusEffects.REGENERATION, 20 * 15, 2, 1F)
     );
     public static final ConsumableComponent REDSTONE_APPLE_EFFECT = createConsumableEffect(
             new EffectData(StatusEffects.SPEED, 20 * 60, 3, 1F),
             new EffectData(StatusEffects.POISON, 20 * 60, 0, 0.6F)
     );
     public static final ConsumableComponent DIRT_APPLE_EFFECT = createConsumableEffect(
-            new EffectData(StatusEffects.REGENERATION, 20 * 20, 0, 0.9F),
+            new EffectData(StatusEffects.REGENERATION, 20 * 3, 0, 0.9F),
             new EffectData(StatusEffects.POISON, 20 * 30, 0, 0.4F),
             new EffectData(StatusEffects.NAUSEA, 20 * 30, 2, 0.6F)
     );
@@ -118,15 +118,15 @@ public class ModFoods {
             new EffectData(StatusEffects.INSTANT_HEALTH, 20 * 10, 2, 1F)
     );
     public static final ConsumableComponent LEAVES_APPLE_EFFECT = createConsumableEffect(
-            new EffectData(StatusEffects.REGENERATION, 20 * 20, 0, 0.9F),
+            new EffectData(StatusEffects.REGENERATION, 20 * 3, 0, 0.9F),
             new EffectData(StatusEffects.NAUSEA, 20 * 30, 2, 0.5F)
     );
     public static final ConsumableComponent WOOL_APPLE_EFFECT = createConsumableEffect(
-            new EffectData(StatusEffects.REGENERATION, 20 * 20, 0, 0.9F),
+            new EffectData(StatusEffects.REGENERATION, 20 * 3, 0, 0.9F),
             new EffectData(StatusEffects.NAUSEA, 20 * 30, 2, 0.2F)
     );
     public static final ConsumableComponent WATER_APPLE_EFFECT = createConsumableEffect(
-            new EffectData(StatusEffects.REGENERATION, 20 * 20, 0, 0.9F),
+            new EffectData(StatusEffects.REGENERATION, 20 * 8, 0, 0.9F),
             new EffectData(StatusEffects.WATER_BREATHING, 20 * 40, 1, 1F),
             new EffectData(StatusEffects.FIRE_RESISTANCE, 20 * 40, 4, 1F)
     );
@@ -137,7 +137,7 @@ public class ModFoods {
             new EffectData(StatusEffects.WIND_CHARGED, 20 * 60, 10, 1F)
     );
     public static final ConsumableComponent STONE_APPLE_EFFECT = createConsumableEffect(
-            new EffectData(StatusEffects.REGENERATION, 20 * 20, 0, 0.9F),
+            new EffectData(StatusEffects.REGENERATION, 20 * 3, 0, 0.9F),
             new EffectData(StatusEffects.SLOWNESS, 20 * 60, 4, 1F),
             new EffectData(StatusEffects.MINING_FATIGUE, 20 * 60, 3, 1F)
     );
@@ -148,7 +148,7 @@ public class ModFoods {
             new EffectData(StatusEffects.HASTE, 20 * 120, 1, 1F),
             new EffectData(StatusEffects.STRENGTH, 20 * 60, 3, 1F),
             new EffectData(StatusEffects.INSTANT_HEALTH, 20 * 60, 2, 1F),
-            new EffectData(StatusEffects.REGENERATION, 20 * 60, 4, 1F),
+            new EffectData(StatusEffects.REGENERATION, 20 * 25, 4, 1F),
             new EffectData(StatusEffects.GLOWING, 20 * 120, 3, 1F)
     );
     public static final ConsumableComponent SPONGE_APPLE_EFFECT = createConsumableEffect(
@@ -159,35 +159,35 @@ public class ModFoods {
             new EffectData(StatusEffects.NIGHT_VISION, 20 * 40, 1, 1F)
     );
     public static final ConsumableComponent SNOW_APPLE_EFFECT = createConsumableEffect(
-            new EffectData(StatusEffects.REGENERATION, 20 * 20, 0, 0.9F),
+            new EffectData(StatusEffects.REGENERATION, 20 * 4, 0, 0.9F),
             new EffectData(StatusEffects.NIGHT_VISION, 20 * 20, 3, 1F),
             new EffectData(StatusEffects.FIRE_RESISTANCE, 20 * 30, 5, 1F)
     );
     public static final ConsumableComponent SLIME_APPLE_EFFECT = createConsumableEffect(
-            new EffectData(StatusEffects.REGENERATION, 20 * 20, 0, 0.9F),
+            new EffectData(StatusEffects.REGENERATION, 20 * 5, 0, 0.9F),
             new EffectData(StatusEffects.JUMP_BOOST, 20 * 60, 5, 1F),
             new EffectData(StatusEffects.SLOWNESS, 20 * 60, 0, 1F),
             new EffectData(StatusEffects.OOZING, 20 * 60, 3, 1F)
     );
     public static final ConsumableComponent SAND_APPLE_EFFECT = createConsumableEffect(
-            new EffectData(StatusEffects.INFESTED, 20 * 20, 2, 1F),
+            new EffectData(StatusEffects.INFESTED, 20 * 3, 2, 1F),
             new EffectData(StatusEffects.INSTANT_HEALTH, 20 * 10, 2, 1F)
     );
     public static final ConsumableComponent MILK_APPLE_EFFECT = ConsumableComponents.food()
             .consumeEffect(ClearAllEffectsConsumeEffect.INSTANCE)
-            .consumeEffect(new ApplyEffectsConsumeEffect(new StatusEffectInstance(StatusEffects.RESISTANCE, 20 * 10, 3), 1F))
+            .consumeEffect(new ApplyEffectsConsumeEffect(new StatusEffectInstance(StatusEffects.RESISTANCE, 20 * 20, 3), 1F))
             .consumeEffect(new ApplyEffectsConsumeEffect(new StatusEffectInstance(StatusEffects.STRENGTH, 20 * 10, 2), 1F))
-            .consumeEffect(new ApplyEffectsConsumeEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 20 * 10, 5), 1F))
-            .consumeEffect(new ApplyEffectsConsumeEffect(new StatusEffectInstance(StatusEffects.HEALTH_BOOST, 20 * 10, 3), 1F))
+            .consumeEffect(new ApplyEffectsConsumeEffect(new StatusEffectInstance(StatusEffects.REGENERATION, 20 * 50, 5), 1F))
+            .consumeEffect(new ApplyEffectsConsumeEffect(new StatusEffectInstance(StatusEffects.HEALTH_BOOST, 20 * 20, 3), 1F))
             .build();
     public static final ConsumableComponent LAVA_APPLE_EFFECT = createConsumableEffect(
-            new EffectData(StatusEffects.REGENERATION, 20 * 20, 0, 0.9F),
+            new EffectData(StatusEffects.REGENERATION, 20 * 4, 0, 0.9F),
             new EffectData(StatusEffects.WATER_BREATHING, 20 * 60, 1, 1F),
             new EffectData(StatusEffects.FIRE_RESISTANCE, 20 * 60, 2, 1F),
             new EffectData(StatusEffects.INSTANT_DAMAGE, 20 / 2, 0, 1F)
     );
     public static final ConsumableComponent HONEY_APPLE_EFFECT = createConsumableEffect(
-            new EffectData(StatusEffects.REGENERATION, 20 * 20, 0, 0.9F),
+            new EffectData(StatusEffects.REGENERATION, 20 * 4, 0, 0.9F),
             new EffectData(StatusEffects.SPEED, 20 * 60, 5, 1F),
             new EffectData(StatusEffects.SLOWNESS, 20 * 60, 0, 1F),
             new EffectData(StatusEffects.HASTE, 20 * 60, 3, 1F)
@@ -204,7 +204,7 @@ public class ModFoods {
             new EffectData(StatusEffects.DOLPHINS_GRACE, 20 * 40, 4, 1F),
             new EffectData(StatusEffects.CONDUIT_POWER, 20 * 100, 5, 1F),
             new EffectData(StatusEffects.RESISTANCE, 20 * 120, 2, 1F),
-            new EffectData(StatusEffects.REGENERATION, 20 * 120, 2, 1F),
+            new EffectData(StatusEffects.REGENERATION, 20 * 25, 2, 1F),
             new EffectData(StatusEffects.HEALTH_BOOST, 20 * 120, 1, 1F),
             new EffectData(StatusEffects.WATER_BREATHING, 20 * 120, 5, 1F),
             new EffectData(StatusEffects.NIGHT_VISION, 20 * 100, 4, 1F)

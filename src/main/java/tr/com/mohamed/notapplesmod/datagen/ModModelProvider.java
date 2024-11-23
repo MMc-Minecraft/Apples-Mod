@@ -24,8 +24,8 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.BONES_APPLE, Models.GENERATED);
         itemModelGenerator.register(ModItems.COAL_APPLE, Models.GENERATED);
         itemModelGenerator.register(ModItems.COPPER_APPLE, Models.GENERATED);
-//        itemModelGenerator.register(ModItems.DIAMOND_APPLE, Models.GENERATED);
-//        itemModelGenerator.register(ModItems.IRON_APPLE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.DIAMOND_APPLE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.IRON_APPLE, Models.GENERATED);
         itemModelGenerator.register(ModItems.EMERALD_APPLE, Models.GENERATED);
         itemModelGenerator.register(ModItems.LAPIS_APPLE, Models.GENERATED);
         itemModelGenerator.register(ModItems.LEATHER_APPLE, Models.GENERATED);
@@ -38,15 +38,15 @@ public class ModModelProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.WATER_APPLE, Models.GENERATED);
         itemModelGenerator.register(ModItems.TNT_APPLE, Models.GENERATED);
         itemModelGenerator.register(ModItems.STONE_APPLE, Models.GENERATED);
-//        itemModelGenerator.register(ModItems.STARS_APPLE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.STARS_APPLE, Models.GENERATED);
         itemModelGenerator.register(ModItems.SPONGE_APPLE, Models.GENERATED);
         itemModelGenerator.register(ModItems.SNOW_APPLE, Models.GENERATED);
         itemModelGenerator.register(ModItems.SLIME_APPLE, Models.GENERATED);
         itemModelGenerator.register(ModItems.SAND_APPLE, Models.GENERATED);
-//        itemModelGenerator.register(ModItems.MILK_APPLE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.MILK_APPLE, Models.GENERATED);
         itemModelGenerator.register(ModItems.LAVA_APPLE, Models.GENERATED);
         itemModelGenerator.register(ModItems.HONEY_APPLE, Models.GENERATED);
         itemModelGenerator.register(ModItems.ENDER_APPLE, Models.GENERATED);
-//        itemModelGenerator.register(ModItems.ENCHANTED_SPONGE_APPLE, Models.GENERATED);
+        itemModelGenerator.register(ModItems.ENCHANTED_SPONGE_APPLE, Models.GENERATED);
     }
 }
