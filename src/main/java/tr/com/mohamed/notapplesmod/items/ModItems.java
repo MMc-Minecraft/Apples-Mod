@@ -3,12 +3,17 @@ package tr.com.mohamed.notapplesmod.items;
 import net.minecraft.component.type.ConsumableComponent;
 import net.minecraft.component.type.FoodComponent;
 import net.minecraft.item.Item;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.tooltip.TooltipType;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.RegistryKey;
 import net.minecraft.registry.RegistryKeys;
+import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 import tr.com.mohamed.notapplesmod.NotApples;
+
+import java.util.List;
 
 public class ModItems {
     public static final Item WOOD_APPLE = registerApple("woodapple", ModFoods.WOOD_APPLE, ModFoods.WOOD_APPLE_EFFECT);
@@ -45,7 +50,13 @@ public class ModItems {
         return registerItem(name,
                 new Item(new Item.Settings().registryKey(
                         RegistryKey.of(RegistryKeys.ITEM, Identifier.of(NotApples.MOD_ID, name))
-                ).food(foodComponent, foodEffect))
+                ).food(foodComponent, foodEffect)) {
+                    @Override
+                    public void appendTooltip(ItemStack stack, TooltipContext context, List<Text> tooltip, TooltipType type) {
+                        tooltip.add(Text.translatable("item." + NotApples.MOD_ID + "." + name + ".tooltip"));
+                        super.appendTooltip(stack, context, tooltip, type);
+                    }
+                }
         );
     }
 
